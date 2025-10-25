@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="spotify-color-svgrepo-com.png">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar lemon-regular">
+            <div class="Rnav">
+                <img src="logo.svg" alt="logo">
+
+                <!-- <div class="home"> -->
+                <img src="home.svg" id="home" alt="home button">
+                <!-- <span>Home</span> -->
+                <!-- </div> -->
+
+                <div class="search">
+                    <img src="search.svg" alt="search icon">
+                    <input type="text" class="no-style-input" placeholder="what do you want to play?">
+
+                    <hr style="width: 1px; height: 20px; border: none; background-color: rgb(201, 199, 199);">
+                    <img src="bag.svg" alt="img" srcset="">
+                </div>
+            </div>
+
+            <div class="Lnav">
+
+                <!-- ul.nav-list -->
+                <ul id="nav-list">
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Download</a></li>
+                    <hr style="width: 2px; height: 22px; border: none; background-color: rgb(143, 142, 142);">
+                    <li><img src="install.svg" alt="install" srcset="">
+                        <a href="#">install app</a>
+                    </li>
+                    <li><a href="#">sign up</a></li>
+                    <li>
+                        <button class="btn">Log in</button>
+                    </li>
+
+
+            </div>
+        </nav>
+
+        <div class="left-right">
+            <div class="left">
+                <div class="library">
+                    <h5>Your Library</h5>
+                    <img src="plus.svg" alt="plus" srcset="">
+                </div>
+                <br>
+                <br>
+                <div id="create-playlist">
+                    <!-- <h4>Create your first playlist</h4> -->
+                    <p>Create your first playlist</p>
+                    <p class="p2">it's easy,we'll help you</p>
+                    <button class="btn">Create Playlist</button>
+                </div>
+                <br>
+                <div id="create-playlist">
+                    <!-- <h4>Create your first playlist</h4> -->
+                    <p>Let's find some podcast to folow </p>
+                    <p class="p2">we'll keep updated to new episode</p>
+                    <button class="btn">browse podcats</button>
+                </div>
+                <footer class="foot">
+                    <p id="para1">Legel Safety&PrivacyCenter PrivacyPolicy cookies aboutads accessibility
+                    <p>Cookies</p>
+                    </p>
+                    <button>
+                        <img src="internet.svg" alt="world" srcset="">
+                        <span>English</span>
+                    </button>
+                </footer>
+            </div>
+            
+            <div class="right">
+                <div class="trending-song">
+                    <h2>Trending Songs</h2>
+                    <b><a href="">Show more</a></b>
+                </div>
+
+
+
+                <div class="cardContainer">
+
+                    <div></div>
+
+
+
+
+
+                    <div class="playbar">
+                        <div class="song">
+                            <b class="songName"></b>
+
+                            <div class="control">
+                                <img src="previous.svg" id="previous" srcset="">
+                                <img src="play.svg" id="play" srcset="">
+                                <img src="next.svg" id="next" srcset="">
+                            </div>
+
+                            <div class="duration">00:00/00:00</div>
+                        </div>
+
+
+                        <div class="timestamp">
+                            <div class="seeker">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

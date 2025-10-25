@@ -1,0 +1,17 @@
+<div class="card">
+                        <div class="play">
+
+                            <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle Background -->
+                                <circle cx="25" cy="25" r="24" fill="#1fdf64" />
+
+                                <!-- Black Play Arrow -->
+                                <polygon points="20,15 35,25 20,35" fill="black" />
+                            </svg>
+                        </div>
+
+                        <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="song"
+                            srcset="">
+                        <h3>Sapphire</h3>
+                        <p><a draggable="true" dir="auto" href="/artist/6eUKZXaKkcviH0Ku9w2n3V">Ed Sheeran</a></p>
+                    </div>

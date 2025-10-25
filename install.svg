@@ -1,0 +1,7 @@
+<svg width="20" height="15" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Circle Background -->
+    <circle cx="25" cy="25" r="24" fill="none" stroke="grey" stroke-width="3"/>
+
+    <!-- Install Arrow -->
+    <path d="M25 15 V30 M18 23 L25 30 L32 23" stroke="grey" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
